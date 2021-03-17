@@ -160,20 +160,33 @@ dict
 
 # CALCULATOR
 
-first_value: str = input('Input first value: ')
-operation: str = input('Input math operation: ')
-second_value: str = input('Input second value: ')
+# first_value: str = input('Input first value: ')
+# operation: str = input('Input math operation: ')
+# second_value: str = input('Input second value: ')
+#
+# for value in {first_value, second_value}:
+#     if not value.isdigit():
+#         print(f'Value of type {type(value)} {value} is not a digit')
+#         sys.exit(0)
+#     first_value: int = int(first_value)
+#     second_value: int = int(second_value)
+#
+# if operation == '+':
+#     print(first_value + second_value)
+# elif operation == '-':
+#     print(first_value - second_value)
+# else:
+#     print(f'Invalid operation {operation}')
 
-for value in {first_value, second_value}:
-    if not value.isdigit():
-        print(f'Value of type {type(value)} {value} is not a digit')
-        sys.exit(0)
-    first_value: int = int(first_value)
-    second_value: int = int(second_value)
+# ____СЛУЧАЙ С ИТЕРАЦИЕЙ ПО СЛОВАРЮ И МЕТОДОМ COPY_____
 
-if operation == '+':
-    print(first_value + second_value)
-elif operation == '-':
-    print(first_value - second_value)
-else:
-    print(f'Invalid operation {operation}')
+ex_dict = {1: 2, 3: 4, 2: 1}
+
+for k,v in ex_dict.copy().items():
+    ex_dict[22] = 22
+    ex_dict.pop(22)
+
+"""
+Если возникает потребность исключить или добавить пару ключь - значение в словарь, 
+    то нужно итерироваться на его копии, а не по оригиналу. 
+"""

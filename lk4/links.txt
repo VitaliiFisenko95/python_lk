@@ -1,0 +1,5 @@
+1. Виртуаленв - https://pypi.org/project/virtualenv/
+2. Виртуаленввраппер - https://virtualenvwrapper.readthedocs.io/en/latest/
+3. Для работы с датами - https://www.w3schools.com/python/python_datetime.asp
+4. Ошибки в пайтон - https://docs.python.org/3/library/exceptions.html
+5. Файлы - https://www.w3schools.com/python/python_file_handling.asp

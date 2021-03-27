@@ -1,0 +1,13 @@
+enums:
+- 1
+- 2
+- 3
+- 4
+laptop:
+  CPU: 16
+  RAM: 16GB
+  SSD: 1TB
+  keybord:
+    contains_of:
+    - enter
+    - space

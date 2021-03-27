@@ -1,0 +1,7 @@
+Теория по функциям
+как вариант где посомтреть уже готовый код и повыполнять https://www.w3schools.com/python/python_functions.asp
+
+
+Памятка про встроеные функции - https://docs.python.org/3/library/functions.html
+
+Не совсем свежая статейка с хабра, но сут описана хорошо https://habr.com/ru/company/otus/blog/487952/

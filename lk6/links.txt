@@ -1,0 +1,7 @@
+1.Про if __name__ == '__main__' https://pyneng.readthedocs.io/ru/latest/book/11_modules/if_name_main.html
+
+2.Cсылка на сам источник - https://pyneng.readthedocs.io/ru/latest/contents.html
+
+3. Тестируем примитивно свой код - https://www.w3schools.com/python/ref_keyword_assert.asp
+4. Так же интресный способ тестирования - https://ru.hexlet.io/courses/advanced_python/lessons/python-doctest/theory_unit
+

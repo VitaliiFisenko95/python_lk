@@ -1,0 +1,94 @@
+{
+  "sellingMethod": "railwayCargo-dutch",
+  "title": {
+    "uk_UA": "asd"
+  },
+  "description": {
+    "uk_UA": "asd"
+  },
+  "accessDetails": {
+    "uk_UA": "asd"
+  },
+  "sellingEntity": {
+    "representativeInfo": "string",
+    "identifier": {
+      "id": "12345678",
+      "scheme": "UA-EDR",
+      "legalName": {
+        "uk_UA": "asd"
+      }
+    },
+    "address": {
+      "streetAddress": {"uk_UA": "string"},
+      "locality": {"uk_UA": "string"},
+      "region": {"uk_UA": "Київ"},
+      "postalCode": "string",
+      "countryName": {
+        "uk_UA": "Україна"
+      }
+    },
+    "contactPoint": {
+      "name": {
+        "uk_UA": "asd"
+      },
+      "telephone": "+380123456789",
+      "faxNumber": "+380123456789",
+      "email": "admin@example.com"
+    }
+  },
+  "lotId": "UA-PS-19991212-00000",
+  "previousAuctionId": "UA-PS-1999-12-12-000000-0",
+  "value": {
+    "currency": "UAH",
+    "amount": 1000.0
+  },
+  "tenderAttempts": 2,
+  "items": [
+    {
+      "requestLifeTime": {
+        "dateFrom": "2020-07-30T16:28:01.041+0000",
+        "dateTill": "2020-07-30T16:28:01.041+0000"
+      },
+      "auctionRestriction": [
+        {
+        "unloadObjectName": "string",
+        "loadObject": "2"
+        }
+      ],
+      "additionalClassifications": [
+        {
+          "id": "MA08-5",
+          "scheme": "CPVS"
+        }
+      ],
+      "description": {
+        "uk_UA": "string"
+      },
+      "classification": {
+        "scheme": "CAV",
+        "id": "34621100-7"
+      },
+      "unit": {
+        "code": "H87"
+      },
+      "wagonSpecies": "20",
+      "loadingRestriction": "Львівська залізниця",
+      "quantity": 900,
+      "address": {
+        "streetAddress": {"uk_UA": "string"},
+        "locality": {"uk_UA": "string"},
+        "region": {"uk_UA": "Київ"},
+        "postalCode": "string",
+        "countryName": {
+          "uk_UA": "Україна"
+        }
+      }
+    }
+  ],
+  "discount": {
+    "discount": false
+  },
+  "minimalStep": {
+    "valueAddedTaxIncluded": true
+  }
+}

@@ -1,0 +1,5 @@
+1. Регулярки:
+    https://habr.com/ru/post/349860/
+    https://codecamp.ru/blog/python-regular-expressions-regex/
+    https://pythex.org/
+    https://www.w3schools.com/python/python_regex.asp

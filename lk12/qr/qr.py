@@ -1,4 +1,6 @@
 import qrcode
+from PIL import Image
+from pyzbar.pyzbar import decode
 
 
 def build_qr(data):
@@ -19,7 +21,8 @@ build_qr({'1': 1})
 
 
 def decode_qr(fp: str):
-    pass
+    data = decode(Image.open(fp))
+    print(data)
 
 
 decode_qr('qrcode001.png')

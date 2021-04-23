@@ -1,0 +1,1 @@
+ValueError text1 - invalid literal for int() with base 10: 'ghjkjh' place <frame at 0x10420f400, file '/Users/vitaliifisenko/hillel/python_beginer/VVP4/lk13/class_work.py', line 62, code type_transformation>

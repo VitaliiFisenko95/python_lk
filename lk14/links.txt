@@ -1,0 +1,21 @@
+O - большое
+https://www.yuripetrov.ru/edu/python/ch_06_01.html#id11
+
+
+Алгоритмы сортировки
+https://pythonru.com/osnovy/top-5-algoritmov-sortirovki-na-python
+https://chel-center.ru/python-yfc/2020/10/25/algoritmy-sortirovki-na-python/
+
+https://neerc.ifmo.ru/wiki/index.php?title=%D0%A1%D0%BE%D1%80%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%BA%D0%B8 - тут можно по свободе попробовать реализовать
+https://techrocks.ru/2020/08/08/sorting-algorithms-with-examples-in-javascript/
+
+
+
+декораторы
+https://pythonru.com/osnovy/rukovodstvo-po-dekoratoram-python
+
+докер:
+- https://ru.wikipedia.org/wiki/Docker
+ -  https://habr.com/ru/company/ruvds/blog/450312/
+ - https://docs.docker.com/ и тут посмотреть гайдики, но пока не устанавливать
+

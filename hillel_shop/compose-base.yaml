@@ -1,0 +1,27 @@
+version: '3'
+
+services:
+  api:
+    image: "${IMAGE}"
+    command: python -m app.api
+    restart: on-failure
+    environment:
+      IS_DEBUG: 1
+    depends_on:
+      - db
+
+  db:
+    image: postgres:latest
+    restart: always
+    volumes:
+      - app_db:/var/lib/psql/data
+    environment:
+      POSTGRES_PASSWORD: "admin"
+      POSTGRES_USER: "admin"
+      POSTGRES_DB: "app"
+      PGDATA: "/var/lib/psql/data"
+      LC_ALL: "en_US.UTF-8"
+      LC_CTYPE: "en_US.UTF-8"
+
+volumes:
+  app_db:

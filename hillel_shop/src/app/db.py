@@ -20,9 +20,6 @@ def db():
             conn.close()
 
 
-dialect = connection.get_dialect(json_serializer=json._default_decoder)
-
-
 def _execute(conn, query, action):
     cursor = None
     try:

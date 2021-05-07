@@ -3,7 +3,6 @@ metadata = sa.MetaData()
 
 products_table = sa.Table(
     'products',
-
     metadata,
     sa.Column('id', sa.BigInteger, primary_key=True, autoincrement=True),
     sa.Column('name', sa.String(128)),
